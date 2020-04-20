@@ -44,9 +44,12 @@ namespace oop
             //Console.WriteLine(cookie["name"]);
 
             //composition example
-            var logger = new Logger();
-            var composition = new Composition(logger);
-            composition.compose();
+            //var logger = new Logger();
+            //var composition = new Composition(logger);
+            //composition.compose();
+
+            //example to set the constructor of an inherited class.. 
+            //var car = new Car("ABC345ABJ");
         }
     }
 }
